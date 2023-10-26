@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    port: 81,
+    port: 82,
     // port: 443,
     https: false,
     open: false
