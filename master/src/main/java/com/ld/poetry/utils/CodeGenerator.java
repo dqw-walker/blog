@@ -34,7 +34,7 @@ public class CodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("sara");
+        gc.setAuthor("deng");
         gc.setIdType(IdType.AUTO);
         gc.setOpen(false);
         gc.setBaseResultMap(true);
@@ -43,7 +43,7 @@ public class CodeGenerator {
         gc.setServiceName("%sService");
         mpg.setGlobalConfig(gc);
 
-        mpg.setDataSource(saraDataSourceConfig());
+        mpg.setDataSource(dengDataSourceConfig());
 
         // 包配置
         PackageConfig pc = new PackageConfig();
@@ -77,7 +77,7 @@ public class CodeGenerator {
     }
 
 
-    private static DataSourceConfig saraDataSourceConfig() {
+    private static DataSourceConfig dengDataSourceConfig() {
         return new DataSourceConfig()
                 .setDbType(DbType.MYSQL)
                 .setUrl("")

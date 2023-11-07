@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
  * 文章评论表 服务实现类
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-08-13
  */
 @Service
@@ -168,7 +168,6 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> impl
         }
         return PoetryResult.success(baseRequestVO);
     }
-
     private CommentVO buildCommentVO(Comment c) {
         CommentVO commentVO = new CommentVO();
         BeanUtils.copyProperties(c, commentVO);
@@ -194,4 +193,16 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> impl
         }
         return commentVO;
     }
+
+    //二分查找
+
+
+
+
+
+
+
+
+
+
 }

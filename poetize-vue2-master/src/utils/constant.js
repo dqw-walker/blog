@@ -1,24 +1,24 @@
 export default {
-  baseURL: "http://localhost:8081",
+  /*baseURL: "http://localhost:8081",
   imBaseURL: "http://localhost:81",
-  webURL: "http://localhost",
+  webURL: "http://localhost",*/
 
-  // baseURL: "https://poetize.cn/api",
-  // imBaseURL: "https://poetize.cn/im",
-  // webURL: "https://poetize.cn",
+  baseURL: "https://120.77.38.242/api",
+  imBaseURL: "https://120.77.38.242/im",
+  webURL: "https://120.77.38.242",
 
   live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
   cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
   waifuPath: "/webInfo/getWaifuJson",
   hitokoto: "https://v1.hitokoto.cn",
   shehui: "https://api.oick.cn/yulu/api.php",
-  tocbot: "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js",
+  tocbot: "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/toncbot.min.js",
   jinrishici: "https://v1.jinrishici.com/all.json",
   random_image: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg?",
   //前后端定义的密钥，AES使用16位
   cryptojs_key: "aoligeimeimaobin",
-  qiniuUrl: "https://upload.qiniup.com",
-  qiniuDownload: "$$$$七牛云下载地址，仿照【https://file.poetize.cn/】",
+  qiniuUrl: "https://upload-z2.qiniup.com",
+  qiniuDownload: "s3l854a43.hn-bkt.clouddn.com",
 
   favoriteVideo: "$$$$自己找一个视频链接作为百宝箱的封面",
 

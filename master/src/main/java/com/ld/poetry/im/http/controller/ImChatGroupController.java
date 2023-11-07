@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
  * 聊天群 前端控制器
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-12-02
  */
 @RestController

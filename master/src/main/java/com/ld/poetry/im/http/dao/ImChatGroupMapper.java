@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 聊天群 Mapper 接口
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-12-02
  */
 public interface ImChatGroupMapper extends BaseMapper<ImChatGroup> {

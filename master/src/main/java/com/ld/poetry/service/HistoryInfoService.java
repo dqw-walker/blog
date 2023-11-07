@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 历史信息 服务类
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2023-07-24
  */
 public interface HistoryInfoService extends IService<HistoryInfo> {

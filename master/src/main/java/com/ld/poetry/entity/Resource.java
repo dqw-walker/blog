@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  * 资源信息
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2022-03-06
  */
 @Data

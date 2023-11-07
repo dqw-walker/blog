@@ -14,7 +14,7 @@ import java.io.Serializable;
  * 网站信息表
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-09-14
  */
 @Data

@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 资源路径 Mapper 接口
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-09-14
  */
 public interface ResourcePathMapper extends BaseMapper<ResourcePath> {

@@ -30,13 +30,13 @@
               </div>
             </li>
 
-<!--            <li v-for="(menu, index) in $store.getters.navigationBar"-->
-<!--                @click="$router.push({path: '/sort', query: {sortId: menu.id, labelId: menu.labels[0].id}})"-->
-<!--                :key="index">-->
-<!--              <div class="my-menu">-->
-<!--                📒 <span>{{ menu.sortName }}</span>-->
-<!--              </div>-->
-<!--            </li>-->
+            <li v-for="(menu, index) in $store.getters.navigationBar"
+                @click="$router.push({path: '/sort', query: {sortId: menu.id, labelId: menu.labels[0].id}})"
+                :key="index">
+              <div class="my-menu">
+                📒 <span>{{ menu.sortName }}</span>
+              </div>
+            </li>
 
             <!-- 爱情买卖 -->
             <li @click="$router.push({path: '/love'})">
@@ -177,13 +177,13 @@
             </div>
           </li>
 
-<!--          <li v-for="(menu, index) in $store.getters.navigationBar"-->
-<!--              @click="smallMenu({path: '/sort', query: {sortId: menu.id, labelId: menu.labels[0].id}})"-->
-<!--              :key="index">-->
-<!--            <div>-->
-<!--              📒 <span>{{ menu.sortName }}</span>-->
-<!--            </div>-->
-<!--          </li>-->
+          <li v-for="(menu, index) in $store.getters.navigationBar"
+              @click="smallMenu({path: '/sort', query: {sortId: menu.id, labelId: menu.labels[0].id}})"
+              :key="index">
+            <div>
+              📒 <span>{{ menu.sortName }}</span>
+            </div>
+          </li>
 
           <!-- 爱情买卖 -->
           <li @click="smallMenu({path: '/love'})">
@@ -471,7 +471,6 @@
 </script>
 
 <style scoped>
-
   .toolbar-content {
     width: 100%;
     height: 60px;
@@ -483,7 +482,6 @@
     user-select: none;
     transition: all 0.3s ease-in-out;
   }
-
   .toolbar-content.enter {
     background: var(--toolbarBackground);
     color: var(--toolbarFont);

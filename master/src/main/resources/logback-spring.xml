@@ -8,8 +8,7 @@
     <springProperty scope="context" name="springAppName" source="spring.application.name" defaultValue="poetry"/>
 
     <!-- 日志目录 -->
-    <springProperty scope="context" name="logback.rootDir" source="logback.rootDir" defaultValue="/home/sara"/>
-
+    <springProperty scope="context" name="logback.rootDir" source="logback.rootDir" defaultValue="/home/blog/logs"/>
 
     <!-- info日志单文件大小限制 -->
     <springProperty scope="context" name="logback.fileInfoLog.maxFileSize" source="logback.fileInfoLog.maxFileSize"
@@ -48,10 +47,10 @@
         </layout>
     </appender>
 
-    <!-- info日志得设定 -->
+    <!-- info日志得设定 --><!--设置日志的级别为详细打印-->//copilot  2020/12/15
     <appender name="fileInfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
-            <level>INFO</level>
+            //修改日志级别     copilot     <level>INFO</level>
         </filter>
         <encoder>
             <pattern>${FILE_LOG_PATTERN}</pattern>

@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * 资源信息 前端控制器
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2022-03-06
  */
 @RestController

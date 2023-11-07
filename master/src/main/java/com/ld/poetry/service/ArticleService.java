@@ -12,7 +12,7 @@ import com.ld.poetry.vo.BaseRequestVO;
  * 文章表 服务类
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-08-13
  */
 public interface ArticleService extends IService<Article> {

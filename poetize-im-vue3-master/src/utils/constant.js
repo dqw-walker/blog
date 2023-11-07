@@ -1,7 +1,7 @@
 export default {
-  baseURL: "http://localhost:8081",
-  webBaseURL: "http://localhost",
-  imURL: "http://localhost:81",
+  baseURL: "http://120.77.38.242:8081",
+  webBaseURL: "http://120.77.38.242",
+  imURL: "http://120.77.38.242:81",
   imBaseURL: "localhost",
   webHistory: "",
   wsProtocol: "ws",
@@ -25,8 +25,8 @@ export default {
   //前后端定义的密钥，AES使用16位
   cryptojs_key: "aoligeimeimaobin",
 
-  qiniuUrl: "https://upload.qiniup.com",
-  qiniuDownload: "$$$$七牛云访问域名，仿照【https://file.poetize.cn/】",
+  qiniuUrl: "https://upload-z2.qiniup.com",
+  qiniuDownload: "s3l854a43.hn-bkt.clouddn.com",
 
   before_color_1: "black",
   after_color_1: "linear-gradient(45deg, #f43f3b, #ec008c)",

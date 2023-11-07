@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  * 聊天群
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-12-02
  */
 @Data

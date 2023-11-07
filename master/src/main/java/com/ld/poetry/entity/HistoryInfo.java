@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
  * 历史信息
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2023-07-24
  */
 @Data

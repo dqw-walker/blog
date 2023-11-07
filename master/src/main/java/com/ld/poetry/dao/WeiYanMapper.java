@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 微言表 Mapper 接口
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-10-26
  */
 public interface WeiYanMapper extends BaseMapper<WeiYan> {

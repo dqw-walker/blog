@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * 单聊记录 服务实现类
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-12-02
  */
 @Service

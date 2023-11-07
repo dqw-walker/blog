@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 单聊记录 服务类
  * </p>
  *
- * @author sara
+ * @author deng
  * @since 2021-12-02
  */
 public interface ImChatUserMessageService extends IService<ImChatUserMessage> {
