@@ -111,46 +111,46 @@
     </div>
 
     <!-- 赞赏 -->
-    <div class="shadow-box-mini background-opacity wow admire-box"
-         v-if="!$common.isEmpty(admires)">
-      <div style="font-weight: bold;margin-bottom: 20px">🧨赞赏名单</div>
-      <div>
-        <vue-seamless-scroll :data="admires" style="height: 200px;overflow: hidden">
-          <div v-for="(item, i) in admires"
-               style="display: flex;justify-content: space-between"
-               :key="i">
-            <div style="display: flex">
-              <el-avatar style="margin-bottom: 10px" :size="36" :src="item.avatar"></el-avatar>
-              <div style="margin-left: 10px;height: 36px;line-height: 36px;overflow: hidden;max-width: 80px">
-                {{ item.username }}
-              </div>
-            </div>
-            <div style="height: 36px;line-height: 36px">
-              {{ item.admire }}元
-            </div>
-          </div>
-        </vue-seamless-scroll>
-      </div>
-      <div class="admire-btn" @click="showAdmire()">
-        赞赏
-      </div>
-    </div>
+<!--   <div class="shadow-box-mini background-opacity wow admire-box"-->
+<!--         v-if="!$common.isEmpty(admires)">-->
+<!--      <div style="font-weight: bold;margin-bottom: 20px">🧨赞赏名单</div>-->
+<!--      <div>-->
+<!--        <vue-seamless-scroll :data="admires" style="height: 200px;overflow: hidden">-->
+<!--          <div v-for="(item, i) in admires"-->
+<!--               style="display: flex;justify-content: space-between"-->
+<!--               :key="i">-->
+<!--            <div style="display: flex">-->
+<!--              <el-avatar style="margin-bottom: 10px" :size="36" :src="item.avatar"></el-avatar>-->
+<!--              <div style="margin-left: 10px;height: 36px;line-height: 36px;overflow: hidden;max-width: 80px">-->
+<!--                {{ item.username }}-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div style="height: 36px;line-height: 36px">-->
+<!--              {{ item.admire }}元-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </vue-seamless-scroll>-->
+<!--      </div>-->
+<!--      <div class="admire-btn" @click="showAdmire()">-->
+<!--        赞赏-->
+<!--      </div>-->
+<!--    </div> -->
 
     <!-- 微信 -->
-    <el-dialog title="赞赏"
-               :visible.sync="showAdmireDialog"
-               width="25%"
-               :append-to-body="true"
-               destroy-on-close
-               center>
-      <div>
-        <div class="admire-image"></div>
-        <div>
-          <div class="admire-content">1. 感谢老铁送来的666</div>
-          <div class="admire-content">2. 申请通过后会加博客交流群，不需要加群或者退群后会定期清理好友（强迫症福利）</div>
-        </div>
-      </div>
-    </el-dialog>
+<!--    <el-dialog title="赞赏"-->
+<!--               :visible.sync="showAdmireDialog"-->
+<!--               width="25%"-->
+<!--               :append-to-body="true"-->
+<!--               destroy-on-close-->
+<!--               center>-->
+<!--      <div>-->
+<!--        <div class="admire-image"></div>-->
+<!--        <div>-->
+<!--          <div class="admire-content">1. 感谢老铁送来的666</div>-->
+<!--          <div class="admire-content">2. 申请通过后会加博客交流群，不需要加群或者退群后会定期清理好友（强迫症福利）</div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </el-dialog>-->
   </div>
 </template>
 

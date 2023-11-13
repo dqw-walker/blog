@@ -47,7 +47,7 @@
           </div>
           <div class="process-wrap">
             <el-collapse v-model="activeName" accordion @change="changeFunny(item.classify)">
-              <el-collapse-item title="笑梗不笑人" :name="index">
+              <el-collapse-item title="沉沦在音乐的世界中" :name="index">
                 <div class="my-animation-slide-bottom"
                      style="display: flex;flex-flow: wrap;margin-left: 20px"
                      v-if="!$common.isEmpty(item.data)">

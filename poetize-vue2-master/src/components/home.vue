@@ -39,11 +39,11 @@
             </li>
 
             <!-- 爱情买卖 -->
-            <li @click="$router.push({path: '/love'})">
+            <!-- <li @click="$router.push({path: '/love'})">
               <div class="my-menu">
                 💋 <span>爱情买卖</span>
               </div>
-            </li>
+            </li> -->
 
             <!-- 旅拍 -->
             <li @click="$router.push({path: '/travel'})">
@@ -186,11 +186,11 @@
           </li>
 
           <!-- 爱情买卖 -->
-          <li @click="smallMenu({path: '/love'})">
+          <!-- <li @click="smallMenu({path: '/love'})">
             <div>
               💋 <span>爱情买卖</span>
             </div>
-          </li>
+          </li> -->
 
           <!-- 旅拍 -->
           <li @click="smallMenu({path: '/travel'})">

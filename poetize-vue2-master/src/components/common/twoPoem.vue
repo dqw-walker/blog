@@ -10,8 +10,8 @@
               fit="cover">
       <div slot="error" class="image-slot"></div>
     </el-image>
-    <div class="poem-wrap">
-      <div v-if="isShehui"><span>鬼畜全明星</span></div>
+  <div class="poem-wrap">
+      <div v-if="isHitokoto"><span>音乐的世界</span></div>
       <div v-else><span>{{isHitokoto?hitokoto.from:guShi.origin}}</span></div>
       <p class="poem">{{isHitokoto?hitokoto.hitokoto:guShi.content}}</p>
       <p class="info" v-if="!isShehui && (!isHitokoto || (isHitokoto && !$common.isEmpty(hitokoto.from_who)))">

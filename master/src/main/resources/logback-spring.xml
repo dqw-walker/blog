@@ -107,8 +107,9 @@
     </appender>
 
 
-    <root level="info">
-        <appender-ref ref="ASYNC_consoleLog"/>
+<!--    <root level="TRACE">-->
+    <root level="DEBUG">
+    <appender-ref ref="ASYNC_consoleLog"/>
         <appender-ref ref="ASYNC_fileInfoLog"/>
         <appender-ref ref="ASYNC_fileErrorLog"/>
     </root>

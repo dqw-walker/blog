@@ -27,7 +27,7 @@
                   收藏夹
                 </div>
                 <div class="card-desc">
-                  将 poetize.cn 添加到您的收藏夹吧
+                  将 dengqiwen.cn 添加到您的收藏夹吧
                 </div>
               </div>
             </div>
