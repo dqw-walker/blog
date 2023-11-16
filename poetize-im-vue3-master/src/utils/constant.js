@@ -1,7 +1,7 @@
 export default {
-  baseURL: "http://120.77.38.242:8081",
-  webBaseURL: "http://120.77.38.242",
-  imURL: "http://120.77.38.242:81",
+  baseURL: "http://127.0.0.1:8081",
+  webBaseURL: "http://127.0.0.1",
+  imURL: "http://127.0.0.1",
   imBaseURL: "localhost",
   webHistory: "",
   wsProtocol: "ws",
