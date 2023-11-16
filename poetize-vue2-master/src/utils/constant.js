@@ -3,9 +3,7 @@ export default {
   imBaseURL: "http://localhost:81",
   webURL: "http://localhost",*/
 
-  baseURL: "https://120.77.38.242/api",
-  imBaseURL: "https://120.77.38.242/im",
-  webURL: "https://120.77.38.242",
+  
 
   live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
   cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
