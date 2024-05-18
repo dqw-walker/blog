@@ -294,7 +294,7 @@
 
   #bannerWave1 {
     height: 84px;
-    background: var(--bannerWave1);
+    background: url(https://www.dengqiwen.cn/assets/bannerWave1.png) repeat-x;
     position: absolute;
     width: 200%;
     bottom: 0;
@@ -304,7 +304,7 @@
 
   #bannerWave2 {
     height: 100px;
-    background: var(--bannerWave2);
+    background: url(https://www.dengqiwen.cn/assets/bannerWave2.png) repeat-x;
     position: absolute;
     width: 400%;
     bottom: 0;

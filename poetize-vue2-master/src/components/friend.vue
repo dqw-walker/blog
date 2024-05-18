@@ -72,9 +72,9 @@
           <blockquote>
             <div>网站名称:行者的空间</div>
             <div>网址:https://www.dengqiwen.cn</div>
-            <div>头像: https://s1.ax1x.com/2022/11/10/z9E7X4.jpg</div>
+            <div>头像: https://cdn.dengqiwen.cn/userAvatar/deng11699701803979201.webp</div>
             <div>描述: 这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～</div>
-            <div>网站封面: https://s1.ax1x.com/2022/11/10/z9VlHs.png</div>
+            <div>网站封面: https://cdn.dengqiwen.cn/webBackgroundImage/%E6%9E%AA.jpg</div>
           </blockquote>
         </div>
         <div style="font-size: 20px;font-weight: bold">🌸申请方式</div>

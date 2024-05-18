@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PoetryApplication<poetry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ld.poetry.PoetryApplication",
+            "projectName": "poetry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

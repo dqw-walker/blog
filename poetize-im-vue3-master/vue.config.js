@@ -1,8 +1,10 @@
 module.exports = {
   devServer: {
-    port: 81,
-    // port: 443,
-    https: false,
+    //aliyun
+    port: 443,
+    https: true,
+    //port: 81,
+    //https: false,
     open: false
   },
   publicPath: '/im/',

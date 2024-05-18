@@ -1,26 +1,34 @@
 export default {
-  /*baseURL: "http://localhost:8081",
-  imBaseURL: "http://localhost:81",
-  webURL: "http://localhost",*/
+  // baseURL: "http://localhost:8081",
+  // imBaseURL: "http://localhost:81",
+  // webURL: "http://localhost",
 
-  baseURL: "https://120.77.38.242/api",
-  imBaseURL: "https://120.77.38.242/im",
-  webURL: "https://120.77.38.242",
+  baseURL: "https://www.dengqiwen.cn/api",
+  imBaseURL: "https://www.dengqiwen.cn/im",
+  webURL: "https://www.dengqiwen.cn",
 
-  live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
-  cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
+
+  live2d_path: "https://cdn.dengqiwen.cn/live2d_api/",
+  cdnPath: "https://cdn.dengqiwen.cn/live2d_api/",
   waifuPath: "/webInfo/getWaifuJson",
   hitokoto: "https://v1.hitokoto.cn",
-  shehui: "https://api.oick.cn/yulu/api.php",
+  //shehui: "https://api.oick.cn/yulu/api.php",
+  shehui: "https://api.oick.cn/yiyan/api.php",
   tocbot: "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/toncbot.min.js",
   jinrishici: "https://v1.jinrishici.com/all.json",
-  random_image: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg?",
+  random_image: "https://cdn.dengqiwen.cn/webBackgroundImage/%E6%9E%AA.jpg?",
   //前后端定义的密钥，AES使用16位
   cryptojs_key: "aoligeimeimaobin",
+  //qiniuUrl: "https://upload.qiniup.com",
+  //qiniuDownload: "$$$$七牛云下载地址，仿照【https://file.poetize.cn/】",
+  //aliyun
   qiniuUrl: "https://upload-z2.qiniup.com",
-  qiniuDownload: "s3l854a43.hn-bkt.clouddn.com",
+  qiniuDownload: "https://cdn.dengqiwen.cn/",
 
-  favoriteVideo: "$$$$自己找一个视频链接作为百宝箱的封面",
+  // favoriteVideo: "$$$$自己找一个视频链接作为百宝箱的封面",
+  favoriteVideo: "https://cdn.dengqiwen.cn/video/backgroundVideo.mp4",
+
+
 
   loveWeiYan: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
   loveMessage: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
@@ -29,7 +37,8 @@ export default {
   loveSortId: 1,
   loveLabelId: 1,
 
-  friendBG: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
+  friendBG: "https://cdn.dengqiwen.cn/webBackgroundImage/%E6%9E%AA.jpg",
+  //friendBG: "https://z1.ax1x.com/2023/11/12/piG3nmQ.jpg",
   friendLetterTop: "https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png",
   friendLetterBottom: "https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png",
   friendLetterBiLi: "https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png",
@@ -39,8 +48,8 @@ export default {
 
   tree_hole_color: ["#ee7752", "#e73c7e", "#23a6d5", "#23d5ab", "rgb(131, 123, 199)", "#23d5ab"],
 
-  two_poem_image: ["https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
-    "https://s1.ax1x.com/2022/12/04/zsKh5V.jpg"],
+  two_poem_image: ["https://cdn.dengqiwen.cn/webBackgroundImage/%E6%9E%AA.jpg",
+    "https://cdn.dengqiwen.cn/webBackgroundImage/1330235.png"],
 
   before_color_1: "black",
   after_color_1: "linear-gradient(45deg, #f43f3b, #ec008c)",

@@ -1,24 +1,30 @@
 export default {
-  baseURL: "http://120.77.38.242:8081",
-  webBaseURL: "http://120.77.38.242",
-  imURL: "http://120.77.38.242:81",
-  imBaseURL: "localhost",
-  webHistory: "",
-  wsProtocol: "ws",
-  wsPort: "9324",
 
-  // baseURL: "https://poetize.cn/api",
-  // webBaseURL: "https://poetize.cn",
-  // imURL: "https://poetize.cn/im",
-  // imBaseURL: "poetize.cn",
-  // webHistory: "/im/",
-  // wsProtocol: "wss",
-  // wsPort: "",
+
+  baseURL: "https://www.dengqiwen.cn/api",
+  webBaseURL: "https://www.dengqiwen.cn",
+  imURL: "https://www.dengqiwen.cn/im",
+  imBaseURL: "www.dengqiwen.cn",
+  webHistory: "/im/",
+  wsProtocol: "wss",
+  wsPort: "",
+
+
+  // baseURL: "http://localhost:8081",
+  // webBaseURL: "http://localhost",
+  // imURL: "http://localhost:81",
+  // imBaseURL: "localhost",
+  // webHistory: "",
+  // wsProtocol: "ws",
+  // wsPort: "9324",
+
+
 
   hitokoto: "https://v1.hitokoto.cn",
   jinrishici: "https://v1.jinrishici.com/all.json",
   jitang: "https://api.oick.cn/dutang/api.php",
-  shehui: "https://api.oick.cn/yulu/api.php",
+  // shehui: "https://api.oick.cn/yulu/api.php",
+  shehui: "https://api.oick.cn/yiyan/api.php",
   yiyan: "https://api.oick.cn/yiyan/api.php",
   dog: "https://api.oick.cn/dog/api.php",
 
@@ -26,7 +32,13 @@ export default {
   cryptojs_key: "aoligeimeimaobin",
 
   qiniuUrl: "https://upload-z2.qiniup.com",
-  qiniuDownload: "s3l854a43.hn-bkt.clouddn.com",
+  qiniuDownload: "https://cdn.dengqiwen.cn/",
+
+  // qiniuUrl: "https://upload-z2.qiniup.com",
+  // qiniuDownload: "$$$$七牛云访问域名，仿照【https://file.poetize.cn/】",
+
+
+
 
   before_color_1: "black",
   after_color_1: "linear-gradient(45deg, #f43f3b, #ec008c)",

@@ -2,7 +2,7 @@
   <div class="myFooter-wrap" v-show="showFooter">
     <div class="myFooter">
       <div class="footer-title">{{$store.state.webInfo.footer}}</div>
-      <div class="icp"><!--本网站由 <a href="https://poetize.cn" target="_blank">Poetize</a> 强力支持--></div>
+      <div data-v-c87a5848="" class="icp"><a data-v-c87a5848="" href="http://beian.miit.gov.cn/" target="_blank">桂ICP备2023012016号</a></div>
     </div>
   </div>
 </template>

@@ -63,7 +63,7 @@ public class MailUtil {
     @PostConstruct
     public void init() {
         this.mailText = "<div style=\"font-family: serif;line-height: 22px;padding: 30px\">\n" +
-                "    <div style=\"display: flex;justify-content: center;width: 100%%;max-width: 900px;background-image: url('https://z1.ax1x.com/2023/11/12/piG3nmQ.jpg');background-size: cover;border-radius: 10px\"></div>\n" +
+                "    <div style=\"display: flex;justify-content: center;width: 100%%;max-width: 900px;background-image: url('https://cdn.dengqiwen.cn/webBackgroundImage/%E6%9E%AA.jpg');background-size: cover;border-radius: 10px\"></div>\n" +
                 "    <div style=\"margin-top: 20px;display: flex;flex-direction: column;align-items: center\">\n" +
                 "        <div style=\"margin: 10px auto 20px;text-align: center\">\n" +
                 "            <div style=\"line-height: 32px;font-size: 26px;font-weight: bold;color: #000000\">\n" +
