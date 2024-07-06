@@ -229,7 +229,7 @@ function loadWidget(config) {
     showMessage(message, 4000, 10);
     if (!modelList) await loadModelList();
     // const target = randomSelection(modelList.models[modelId]);
-    const target = "HyperdimensionNeptunia/blanc_swimwear";
+    const target = "HyperdimensionNeptunia/vert_swimwear";
     loadlive2d("live2d", `${cdnPath}model/${target}/index.json`);
   }
 

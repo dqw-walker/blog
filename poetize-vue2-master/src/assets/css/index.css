@@ -11,7 +11,8 @@ body {
 
 @font-face {
     font-family: SmileySans;
-    src: url(../fonts/SmileySans.otf);
+    /*src: url(../fonts/SmileySans.otf);*/
+    src: url(https://cdn.dengqiwen.cn/userFronts/SmileySans.otf);
     font-display: swap;
 }
 
